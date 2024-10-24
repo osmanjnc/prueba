@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKY - Alquiler de Aviones</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">SKY</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="producto.html">Productos</a>
+            <a href="alquiler.html">Alquiler</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="nav-buttons">
+            <button class="btn btn-login">Login</button>
+            <button class="btn btn-register">Register</button>
+        </div>
+    </nav>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="https://i.imgur.com/W1C23dQ.jpeg" alt="Avion 1">
+                <div class="slide-content">
+                    <h2>Alquiler de Aviones Privados</h2>
+                    <p>Experiencia de vuelo exclusiva y personalizada</p>
+                    <button class="btn btn-primary">Reservar Ahora</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://i.imgur.com/MPr41Ao.jpeg" alt="Avion 2">
+                <div class="slide-content">
+                    <h2>Máximo Confort</h2>
+                    <p>Viaje con estilo y comodidad</p>
+                    <button class="btn btn-primary">Ver Flota</button>
+                </div>    
+            </div>
+            <div class="slide">
+                <img src="https://i.imgur.com/05rb9dT.jpeg" alt="Avion 3">
+                <div class="slide-content">
+                    <h2>Servicio Premium</h2>
+                    <p>Atención personalizada las 24 horas</p>
+                    <button class="btn btn-primary">Contactar</button>
+                </div>    
+            </div>
+        </div>
+        <div class="slider-navigation">
+            <div class="nav-dot active"></div>
+            <div class="nav-dot"></div>
+            <div class="nav-dot"></div>
+        </div>
+        <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+    </div>   
+    <script src="js/slider.js"></script>     
+</body>
+</html>
